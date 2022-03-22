@@ -1,0 +1,35 @@
+.home__image {
+  width: 100%;
+  z-index: -1;
+  margin-bottom: -150px;
+  mask-image: linear-gradient(to top, transparent 25%, black 75%);
+}
+
+.home__row {
+  display: flex;
+  z-index: -1;
+  margin-left: 5px;
+  margin-right: 5px;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  align-content: center;
+}
+.main__container {
+  background: radial-gradient(at center center, #2d7e9270 0%, #052e587c 100%),
+    url("/public/images/slider/welcome-bg.jpg");
+  height: 50vh;
+  background-size: center;
+  background-position: center;
+}
+
+@media screen and (max-width: 850px) {
+  .home__row {
+    display: flex;
+    z-index: -1;
+    margin-left: 5px;
+    margin-right: 5px;
+    flex-direction: column;
+    align-items: center;
+  }
+}

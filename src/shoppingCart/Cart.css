@@ -1,0 +1,7 @@
+.card__total {
+  display: flex;
+  justify-content: space-between;
+  flex-direction: row;
+  background-color: #ddd;
+  padding: 24px;
+}

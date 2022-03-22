@@ -1,0 +1,117 @@
+.shopping-cart-header {
+  display: flex;
+  flex-direction: row;
+  margin-top: 30px;
+  margin-bottom: 10px;
+}
+.ShoppingCart__items {
+  display: flex;
+  flex-direction: column;
+  align-content: center;
+  justify-content: flex-start;
+  margin-right: 30px;
+  flex-wrap: wrap;
+  width: 50%;
+}
+
+.ShoppingCart__items > .qte {
+  margin: 8px 0 0;
+  font-family: Heebo, sans-serif;
+  line-height: 1.1em;
+  font-weight: 500;
+  text-transform: uppercase;
+  color: #ed1d24;
+  font-size: 11px;
+  letter-spacing: 0.075em;
+  color: #ed1d24;
+}
+.ShoppingCart__items > .price {
+  margin: 4px 0 0;
+  font-family: Rajdhani, sans-serif;
+  font-weight: 700;
+  letter-spacing: 0.025em;
+  text-transform: uppercase;
+  color: #000;
+  font-size: 16px;
+  line-height: 1.5em;
+  letter-spacing: 0.1em;
+}
+.shoppingCart__image {
+  border: 1px solid #e3e3e3;
+  margin-left: 5px;
+  margin-right: 30px;
+  max-width: 100px;
+  max-height: 100px;
+}
+.ShoppingCart__remove__items {
+  cursor: pointer;
+}
+.card__total {
+  display: flex;
+  justify-content: space-between;
+  flex-direction: row;
+  background-color: #f5f5f5;
+  padding: 24px;
+}
+.cart__view {
+  width: 50%;
+  font-weight: 400;
+  letter-spacing: 1px !important;
+  background: #e1bf7c;
+  margin-top: 35px;
+  color: #444;
+  box-shadow: 3px 8px 8px -1px #ececec;
+  font-size: 16px;
+  color: #fff;
+  display: inline-block;
+  text-transform: capitalize;
+  padding: 0 20px;
+  min-width: 200px;
+  text-align: center;
+  line-height: 48px;
+  border-radius: 30px;
+  border: 1px solid #e1bf7c;
+  cursor: pointer;
+  transition: all 0.25s ease-in-out;
+}
+.cart__view:hover {
+  transform: translateY(0);
+  box-shadow: none;
+  background: transparent;
+  color: #e1bf7c;
+}
+
+.cart_checkout {
+  width: 50%;
+  font-weight: 400;
+  letter-spacing: 1px !important;
+  background: #252525;
+  margin: 35px;
+  color: #444;
+  box-shadow: 3px 8px 8px -1px #ececec;
+  font-size: 16px;
+  color: #fff;
+  display: inline-block;
+  text-transform: capitalize;
+  padding: 0 20px;
+  min-width: 200px;
+  text-align: center;
+  line-height: 48px;
+  border-radius: 30px;
+  border: 1px solid #252525;
+  cursor: pointer;
+  transition: all 0.25s ease-in-out;
+}
+.cart_checkout:hover {
+  transform: translateY(0);
+  box-shadow: none;
+  background: transparent;
+  color: #252525;
+}
+.view__basket {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  align-content: center;
+  align-self: center;
+}
